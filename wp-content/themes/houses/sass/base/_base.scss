@@ -1,0 +1,114 @@
+.container {
+    margin: 0 auto;
+    padding: 0 25px;
+    @media all and (min-width: $lg) {
+        max-width: 1170px;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+*:hover {
+    transition: all 0.5s ease;
+}
+
+.button {
+    border-radius: 5px;
+    font: 600 18px "Open Sans",sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.heading {
+    text-align: center;
+    h2 {
+        margin-bottom: 0;
+        font: 300 40px $main-font;
+        color: $dark-color;
+    }
+    span {
+        font: 300 16px $main-font;
+        color: $text-color;
+    }
+}
+
+#secondary {
+    border-top: 1px solid $second-border-color;
+    @media all and (max-width: 990px) {
+        text-align: center;
+    }
+}
+
+@media all and (min-width: $md) {
+#primary {
+    width: 70%;
+    box-sizing: border-box;
+    float: left;
+}
+    #secondary {
+        width: 30%;
+        box-sizing: border-box;
+        float: right;
+        padding-left: 50px;
+        border-top: 0;
+    }
+}
+
+.content {
+    padding-top: 50px;
+}
+
+#tag_cloud-2, #archives-2 {
+    padding-bottom: 20px;
+}
+
+.widget-title {
+    margin-bottom: 30px;
+}
+.tag-cloud-link {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #E6E6E6;
+    font: 14px $main-font !important;
+    color: $text-color;
+    &:hover {
+        color: $main-color !important;
+    }
+}
+
+.widget_archive ul {
+    padding-left: 0;
+    list-style: none;
+    li {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #E6E6E6;
+        a {
+            text-decoration: none;
+            font: 16px $main-font !important;
+            color: $text-color;
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+}
+
+.entry-header {
+    text-align: center;
+}

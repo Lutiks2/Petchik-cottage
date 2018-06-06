@@ -1,0 +1,188 @@
+.wrap-header {
+    border-bottom: 1px solid $second-border-color;
+}
+
+.nav-panel {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    .site-branding {
+        display: inline-block;
+        float: left;
+    }
+    .main-navigation {
+        float: right;
+    }
+}
+
+.search-block {
+    display: none;
+    padding-top: 32px;
+    position: absolute;
+    right: 0;
+    width: 252px;
+    @media all and (min-width: $sm) {
+        //padding-top: 45px;
+    }
+}
+.position-search {
+    @media all and (min-width: $sm) {
+        right: 45px;
+        margin-top: 30px;
+    }
+}
+
+.position-search-main {
+    @media all and (min-width: $md) {
+        margin-top: 15px;
+        right: 0;
+        padding-top: 0;
+    }
+}
+@media all and (min-width: $sm) {
+    .logo-nav {
+        float: left;
+    }
+    .language-search {
+        float: right;
+    }
+}
+
+.language-search {
+    padding-right: 15px;
+    padding-top: 20px;
+    position: relative;
+    @media all and (min-width: $sm) {
+        padding-top: 5px;
+    }
+    color: $text-color;
+    float: right;
+    .lang-block {
+        padding-right: 20px;
+        float: left;
+        .language {
+            padding-right: 2px;
+            font: 16px $main-font;
+        }
+    }
+}
+#searchsubmit {
+    background: $main-color;
+    padding: 3px 5px;
+    font-family: $main-font;
+    color: $lite-color;
+    border-radius: 3px;
+}
+
+.main-navigation {
+    @media all and (min-width: $md) {
+    }
+}
+
+.menu-bat {
+    display: block;
+    padding-top: 3px;
+    font-size: 27px;
+    color: $main-color;
+    @media all and (min-width: $sm) {
+        padding-left: 50px;
+    }
+    @media all and (min-width: $md) {
+        display: none;
+    }
+}
+
+ul.welcome-list {
+    display: none;
+    background: $main-color;
+    position: absolute;
+    top: 106px;
+    left: 20px;
+    right: 20px;
+    list-style: none;
+    padding-left: 0;
+    a{
+        display: block;
+        padding: 15px 80px;
+        text-align: center;
+        font: 18px $main-font;
+        color: $lite-color;
+        text-transform: uppercase;
+        &:hover {
+            color: $dark-color;
+        }
+    }
+    @media all and (min-width: $md) {
+        display: block;
+        margin-top: 0;
+        padding-top: 5px;
+        padding-left: 95px;
+        position: inherit;
+        background: none;
+        li {
+            display: inline-block;
+            padding-right: 25px;
+            a {
+                padding: 5px 10px;
+                border-radius: 15px;
+                font: 16px $main-font;
+                color: $text-color;
+                text-transform: none;
+                &:hover {
+                    color: $lite-color;
+                    background-color: $main-color;
+                }
+            }
+        }
+
+    }
+}
+
+/// welcome section
+.welcome {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    @media all and (min-width: $sm) {
+        padding-top: 85px;
+        padding-bottom: 100px;
+    }
+}
+
+.welcome-description {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font: bold 45px $main-font;
+    color: $lite-color;
+    @media all and (min-width: $sm) {
+        padding-bottom: 75px;
+        width: 605px;
+        text-align: left;
+    }
+}
+
+.welcome-about {
+    margin: 0;
+    padding-bottom: 40px;
+    text-align: center;
+    font: 600 18px $main-font;
+    color: $lite-color;
+    @media all and (min-width: $sm) {
+        width: 380px;
+        padding-bottom: 65px;
+        text-align: left;
+    }
+}
+
+.welcome-button {
+    text-align: center;
+    @media all and (min-width: $sm) {
+        text-align: left;
+        padding-bottom: 50px;
+    }
+}
+
+.button-header {
+    padding: 20px 60px;
+}

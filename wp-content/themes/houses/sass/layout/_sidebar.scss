@@ -1,0 +1,39 @@
+.my-recent-post {
+    ul {
+        padding-left: 0;
+        list-style: none;
+    }
+}
+
+.resent-list {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid $second-border-color;
+}
+
+.lasttumb {
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.last-text {
+    width: 60%;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 10px;
+    .last-date {
+        float: left;
+        font: 12px $main-font;
+        color: $text-color;
+    }
+    .last-comment {
+        float: right;
+        font: 12px $main-font;
+        color: $text-color;
+    }
+    h3 {
+        margin-top: 10px;
+        color: $dark-color;
+    }
+}

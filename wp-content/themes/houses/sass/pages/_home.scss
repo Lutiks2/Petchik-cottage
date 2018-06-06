@@ -1,0 +1,29 @@
+.blog-page {
+    padding-left: 0;
+    list-style: none;
+    li {
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid $second-border-color;
+        @media all and (min-width: $md) {
+            &:last-child{
+            border-bottom: none;
+        }}
+    }
+}
+
+.load-my-posts {
+    margin-top: 30px;
+}
+
+.load-my-posts {
+    margin-top: 30px;
+    width: 175px;
+    background: $main-color;
+    padding: 10px;
+    text-align: center;
+    font: 800 18px $main-font;
+    color: $lite-color;
+    text-transform: uppercase;
+    border-radius:  5px;
+}
